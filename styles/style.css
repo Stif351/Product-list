@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Red: hsl(14, 86%, 42%);
+  --Green: hsl(159, 69%, 38%);
+
+  --Rose50: hsl(20, 50%, 98%);
+  --Rose100: hsl(13, 31%, 94%);
+  --Rose300: hsl(14, 25%, 72%);
+  --Rose400: hsl(7, 20%, 60%);
+  --Rose500: hsl(12, 20%, 44%);
+  --Rose900: hsl(14, 65%, 9%);
+  --primary-font: "Red Hat Text";
+  --text-footer: hsl(224, 9%, 90%);
+  --link-footer: hsl(228, 70%, 84%);
+}
+
+/* ================  FOOTER  ============== */
+
+footer {
+  max-width: 275px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.attribution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.attribution p {
+  font-weight: 600;
+  color: var(--text-footer);
+}
+
+.attribution a {
+  font-style: italic;
+  text-decoration: none;
+  color: var(--link-footer);
+}
