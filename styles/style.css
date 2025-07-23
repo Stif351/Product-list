@@ -14,11 +14,39 @@
   --Rose400: hsl(7, 20%, 60%);
   --Rose500: hsl(12, 20%, 44%);
   --Rose900: hsl(14, 65%, 9%);
+  --White: hsl(0, 10%, 100%);
   --primary-font: "Red Hat Text";
-  --text-footer: hsl(224, 9%, 90%);
-  --link-footer: hsl(228, 70%, 84%);
+  --text-footer: hsl(240, 3%, 7%);
+  --link-footer: hsl(228, 84%, 52%);
 }
-
+.wrraper{
+  background-color: var(--Rose50);
+ padding: 45px;
+}
+.desserts-container{
+  margin-bottom: 50px;
+}
+.img,
+.cart-container{
+  max-width: 328px;
+  width: 100%;
+  border-radius: 10px;
+}
+.img-dessert{
+  position: relative;
+  margin-bottom: 50px;
+}
+.btn{
+  position: absolute;
+  bottom: -20px;
+  left: 100px;
+  border-radius: 50px;
+  padding: 16px;
+}
+.cart-container{
+  background-color: var(--White);
+  padding: 32px;
+}
 /* ================  FOOTER  ============== */
 
 footer {
